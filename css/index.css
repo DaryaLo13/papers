@@ -1,0 +1,37 @@
+/** @format */
+@import "./main.css";
+
+.body {
+  color: var(--main-color);
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.header {
+  .container {
+    .nav-logo {
+      .wrapper {
+        .link {
+          width: 140px;
+          height: 22px;
+        }
+        .list {
+          .item {
+            .link {
+              color: var(--color-nav);
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}
