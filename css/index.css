@@ -15,23 +15,101 @@
   list-style: none;
 }
 
+/* section header */
+
 .header {
   .container {
     .nav-logo {
-      .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .nav_right {
+        display: flex;
+        align-items: center;
         .link {
-          width: 140px;
-          height: 22px;
+          .img {
+            width: 140px;
+            height: 22px;
+          }
         }
-        .list {
-          .item {
+      }
+      .list {
+        display: flex;
+        .item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 130px;
+          .link {
+            color: var(--color-nav);
+            font-family: "Roboto";
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.17;
+            margin-right: 60px;
+            text-decoration: none;
+            display: flex;
+          }
+          .wrapper {
+            display: flex;
+            align-items: center;
             .link {
-              color: var(--color-nav);
-              display: flex;
+              .img {
+                width: 24px;
+                height: 24px;
+              }
             }
           }
         }
       }
+    }
+  }
+}
+
+/* section paper */
+
+.paper {
+  .container {
+    .title {
+      color: var(--color-nav);
+      font-family: "Roboto";
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 1;
+      max-width: 444px;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    .desc {
+      color: var(--color-desc);
+      font-family: "Roboto";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: left;
+      margin-bottom: 53px;
+      display: flex;
+      max-width: 25%;
+    }
+    .btn {
+      color: var(--color-link);
+      padding: 14px 41px;
+      background-color: transparent;
+      font-family: "Roboto";
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.172;
+      border: 1px solid #7875fe;
+      border-radius: 5px;
+      display: flex;
+    }
+    .img {
+      width: 531px;
+      height: 423px;
+      margin-left: 125px;
+      margin-top: 60px;
+    }
+    &:not(:last-child) {
+      margin-right: 29px;
     }
   }
 }
