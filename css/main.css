@@ -9,3 +9,24 @@
   --color-link: #7875fe;
   --color-nav: #4c5866;
 }
+
+.body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
