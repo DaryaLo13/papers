@@ -271,12 +271,81 @@
 
   /* section parters */
 
-  .parters {
+  .partners{
     .container {
       background-color: #e7e7e7c5;
+      height: 330px;
       .list {
-        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 90px;
+        padding-top: 90px;
+
+        .item {
+          width: 255px;
+          height: 135px;
+          border: medium solid #C4C4C4;
+  
+          .img {
+          padding: 26px;    
+          }
+        }
       }
     }
   }
  
+  /* section sketchbook  */
+  .sketchbook {
+    .container{
+      display: flex;
+      justify-content: space-between;
+
+      .right-wrapper {
+        display: flex;
+
+      .subtitle{
+        color: var(--color-subtitle);
+        font-family: "Roboto";
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 114px;
+      }
+      .desc {
+        color: var(--color-desc);
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: 8px;
+      }
+      .link {
+        margin-top: 30px;
+        text-align: left;
+        
+        .btn{
+          color: var(--color-link);
+          font-family: "Roboto";
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 2;
+          padding: 23px;
+
+        }
+      }
+    }
+      
+      .foto{
+        margin-top: 90px;
+        .img{
+          width: 533px;
+          height: 255px;
+
+        }
+      
+      }
+    }
+  }
