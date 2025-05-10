@@ -356,4 +356,31 @@
     }
   }
 
-  
+  /* section footter */
+
+  .footter {
+    .container{
+      color: var(--color-nav);
+      .wrapper-footter {
+        .logo {
+          text-align: left;
+          .img { 
+            width:140px;
+          }
+        }
+        
+          .list-style-none{
+            .item {
+              display: flex;
+
+              .link {
+                .img {
+
+                }
+              }
+            }
+          }
+        }
+      
+    }
+  }
