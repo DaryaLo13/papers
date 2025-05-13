@@ -355,26 +355,36 @@
       }
     }
   }
-
+  
   /* section footter */
-
   .footter {
     .container{
-      color: var(--color-nav);
-      .wrapper-footter {
+    background-color: var(--color-nav);
+        display: flex;
+        justify-content: space-between;
+    .wrapper-footter {
         .logo {
-          text-align: left;
+          
+   display: flex;
+    align-items: center;
+    margin-right: 40px;
           .img { 
-            width:140px;
+          text-align: left;
+          margin-top: 29px;
+          ;
           }
         }
-        
+      }
           .list-style-none{
-            .item {
-              display: flex;
-
+            display: flex;
+            .item { 
+              margin-right: 29px;
+      
               .link {
                 .img {
+                  width: 24px;
+                  height: 24px;
+                  margin-top: 29px;
 
                 }
               }
@@ -383,4 +393,4 @@
         }
       
     }
-  }
+  
